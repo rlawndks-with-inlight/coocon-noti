@@ -1,5 +1,5 @@
 <?php
-    include_once '/home/coocon-deposit-tcpip-server/KISA_SEED_WRAP.php';
+    include_once '/home/ec2-user/coocon-noti/KISA_SEED_WRAP.php';
 
     // 호스트와 포트 설정
     $host = '211.45.163.4';
@@ -105,7 +105,7 @@
             try
             {
                 echo $log;
-                file_put_contents('/home/coocon-deposit-tcpip-server/logs/log_'.date("Ymd").'.log', $log, FILE_APPEND);
+                file_put_contents('/home/ec2-user/coocon-noti/logs/log_'.date("Ymd").'.log', $log, FILE_APPEND);
             }
             catch (Exception $e) 
             {

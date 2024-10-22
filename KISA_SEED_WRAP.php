@@ -1,5 +1,5 @@
 <?php
-    include_once '/home/coocon-deposit-tcpip-server/KISA_SEED_ECB.php';
+    include_once '/home/ec2-user/coocon-noti/KISA_SEED_ECB.php';
 
     class Cipher
     {        
